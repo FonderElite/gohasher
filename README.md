@@ -4,7 +4,7 @@
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"> About
 <p>Go Hasher is a tool that can hash your string. Using the different crypto libraries in golang hashing has never been this easy!</p>
 
-## Tools Used
+## 🧰 Tools Used
 | **Technologies** | ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) 
  :--- | :---
  
@@ -39,7 +39,7 @@ Usage of /tmp/go-build2475655134/b001/exe/hash:
   -s string
         String to hash
 ```
-## Platforms
+## :octocat: Platforms
 **Windows** - [Golang Docs for Installation](https://golang.org/doc/install)<br>
 **Mac** - [Golang Docs for Installation](https://golang.org/doc/install)<br>
 **Linux**
