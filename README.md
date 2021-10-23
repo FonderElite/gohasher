@@ -2,6 +2,21 @@
 <img src="demo.png">
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"> About
+<p>Go Hasher is a tool that can hash your string. Using the different crypto libraries in golang hashing has never been this easy!</p>
+**Available Hashing Algorithms**
+<ul>
+<li>md4</li>
+<li>md5</li>
+<li>sha1</li>
+<li>sha256</li>
+<li>sha512</li>
+<li>ripemd160</li>
+<li>sha3</li>
+<li>blake2b</li>
+<li>scrypt</li>
+<li>argon2</li>
+<li>bcrypt</li>
+</ul>
 
 ## Installation 
 ```bash
