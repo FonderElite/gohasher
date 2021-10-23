@@ -23,7 +23,7 @@
 sudo chmod 777 install.sh
 ./install.sh
 ```
-## Usage
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"> Usage
 ```bash
 ┌──(kali㉿kali)-[~]
 └─$ sudo go run hash.go -h      
