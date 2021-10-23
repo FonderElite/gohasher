@@ -34,9 +34,9 @@ red.Println("Help: sudo go run <file_name.go> -h")
 func hashstring(strtohash string, typeofhash string) *Hasher{
 hasher := Hasher{str_tohash:strtohash, hashtype:typeofhash}
 if strings.ToLower(hasher.hashtype) == "md4"{
-	md4hasher := md4.New()
-	md4hasher.Write([]byte(hasher.str_tohash))
-	md4_hashedstr :=  hex.EncodeToString(md4hasher.Sum(nil))
+md4hasher := md4.New()
+md4hasher.Write([]byte(hasher.str_tohash))
+md4_hashedstr :=  hex.EncodeToString(md4hasher.Sum(nil))
 fmt.Printf("MD4 - %v : %v",hasher.str_tohash, md4_hashedstr)
 }else if strings.ToLower(hasher.hashtype) == "md5"{
 md5hasher := md5.New()
