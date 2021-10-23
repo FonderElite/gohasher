@@ -18,9 +18,20 @@
 <li>bcrypt</li>
 </ul>
 
-## Installation 
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"> Installation 
 ```bash
 sudo chmod 777 install.sh
 ./install.sh
 ```
+## Usage
+```bash
+┌──(kali㉿kali)-[~]
+└─$ sudo go run hash.go -h      
+Usage of /tmp/go-build2475655134/b001/exe/hash:
+  -ht string
+        Type of hash(md4,md5,sha1,sha256)
+  -s string
+        String to hash
+```
+
 
