@@ -3,7 +3,9 @@
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"> About
 <p>Go Hasher is a tool that can hash your string. Using the different crypto libraries in golang hashing has never been this easy!</p>
+
 **Available Hashing Algorithms**
+
 <ul>
 <li>md4</li>
 <li>md5</li>
