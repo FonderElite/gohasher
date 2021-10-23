@@ -39,5 +39,9 @@ Usage of /tmp/go-build2475655134/b001/exe/hash:
   -s string
         String to hash
 ```
+## Platforms
+**Windows** - [Golang Docs for Installation](https://golang.org/doc/install)
+**Mac** - [Golang Docs for Installation](https://golang.org/doc/install)
+**Linux**
 
 
