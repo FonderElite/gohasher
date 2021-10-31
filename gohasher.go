@@ -12,7 +12,7 @@ import (
 "encoding/hex"
 "strings"
 )
-
+/*ok*/
 type Hasher struct {
 str_tohash string
 hashtype string
