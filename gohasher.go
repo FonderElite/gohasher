@@ -1,4 +1,3 @@
-/*https://asecuritysite.com/encryption/gohash*/
 package main
 import (
 "crypto/md5"
