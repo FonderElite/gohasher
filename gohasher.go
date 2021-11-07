@@ -19,10 +19,12 @@ import (
 "encoding/hex"
 "strings"
 )
+
 type Hasher struct {
 str_tohash string
 hashtype string
 }
+
 func generateRandomBytes(n uint32) ([]byte, error) {
     b := make([]byte, n)
     _, err := rand.Read(b)
@@ -32,6 +34,7 @@ func generateRandomBytes(n uint32) ([]byte, error) {
 
     return b, nil
 }
+
 func banner(){
 banner := `
 ╔═╗┌─┐   ╦ ╦┌─┐┌─┐┬ ┬┌─┐┬─┐
@@ -54,9 +57,9 @@ if err != nil{
 }
 hasher := Hasher{str_tohash:strtohash, hashtype:typeofhash}
 if strings.ToLower(hasher.hashtype) == "md4"{
-        md4hasher := md4.New()
-        md4hasher.Write([]byte(hasher.str_tohash))
-        md4_hashedstr :=  hex.EncodeToString(md4hasher.Sum(nil))
+md4hasher := md4.New()
+md4hasher.Write([]byte(hasher.str_tohash))
+md4_hashedstr :=  hex.EncodeToString(md4hasher.Sum(nil))
 fmt.Printf("MD4 - %v : %v",hasher.str_tohash, md4_hashedstr)
 }else if strings.ToLower(hasher.hashtype) == "md5"{
 md5hasher := md5.New()
@@ -108,6 +111,7 @@ fmt.Println("(md4 | md5 | sha1 | sha256 | sha512 | ripemd160 | sha3 | blake2b | 
 }
 return &hasher
 }
+
 func main(){
 flag1 := flag.String("s", "", "String to hash")
 flag2 := flag.String("ht","","Type of hash(md4,md5,sha1,sha256,ripemd160,sha3, blake2b, script, argon, bcrypt)")
